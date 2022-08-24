@@ -1,0 +1,90 @@
+main {
+    width: 1247px;
+    height: 286px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 351px;
+    height: 113px;
+    margin: 0 auto;
+    display: block
+}
+
+
+
+.ust {
+    width: 1119px;
+    height: 63px;
+    background-color: #EEEEEE;
+    text-align: center;
+
+
+}
+
+.orta {
+    width: 1119px;
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 0
+}
+
+.alt1 {
+    width: 412px;
+    height: 76px;
+    background-color: #7EE5DA;
+    display: table;
+    text-align: center;
+
+
+}
+
+
+
+.alt2 {
+    width: 224px;
+    height: 76px;
+    background-color: #70CCC2;
+    font-size: small;
+    float: left;
+    text-align: center;
+    display: table;
+
+}
+
+section {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.alt3 {
+    width: 479px;
+    height: 76px;
+    background-color: #62B3AA;
+    text-align: center;
+    font-size: small;
+    display: table;
+
+}
+
+.enalt {
+    width: 200px;
+    height: 14px;
+    margin: 20px auto;
+
+}
+
+@media screen and (max-width: 414px) {
+
+    main,
+    .orta {
+        width: 40%;
+    }
+}
